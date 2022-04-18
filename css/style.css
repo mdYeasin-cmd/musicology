@@ -1,0 +1,393 @@
+/* Common CSS Start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+ol, ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text-center{
+    text-align: center;
+}
+.section_content{
+    padding: 95px 0;
+}
+.section_head{
+    color: #fff;
+}
+.section_head h2{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+.section_head p{
+    width: 570px;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 400;
+}
+/* Common CSS End */
+
+/* Nav Section Start */
+nav{
+    background-color: #303030;
+}
+nav .row{
+    align-items: center;
+    justify-content: center;
+}
+nav .logo{
+    width: 20%;
+}
+nav .menu{
+    width: 60%;
+}
+nav .menu ul li a{
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 38px 28px;
+    transition: all 0.5s linear;
+}
+nav .menu ul li:hover a{
+    color: #e8631c;
+}
+nav .search{
+    width: 20%;
+    text-align: right;
+}
+/* Nav Section End */
+
+/* Banner Section Start */
+#banner{
+    height: 693px;
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#banner .container{
+    height: 100%;
+}
+#banner .row{
+    height: 100%;
+    align-items: center;
+}
+#banner .banner_content{
+    color: #fff;
+}
+#banner .banner_content h1{
+    font-size: 85px;
+    font-weight: 400;
+}
+#banner .banner_content p{
+    width: 460px;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 30px 0;
+}
+#banner .banner_content a{
+    display: inline-block;
+    background-color: #e8631c;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px 80px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    transition: all 0.5s linear;
+}
+#banner .banner_content a:hover{
+    background-color: #303030;
+}
+/* Banner Section End */
+
+/* Dance Tour Section Start */
+#dance{
+    background-image: url("../images/dance_tour_bg.jpg");
+    background-size: cover;
+}
+#dance .row{
+    justify-content: space-between;
+}
+#dance .dance-item{
+    width: calc((100% / 3) - 35px);
+    background-color: #303030;
+    margin-top: 80px;
+}
+#dance .dance-item img{
+    width: 100%;
+}
+#dance .dance-item h4{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 30px;
+}
+#dance .dance-item p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    padding: 16px 0;
+}
+/* Dance Tour Section End */
+
+/* Pricing Section Start */
+#pricing{
+    background-image: url("../images/pricing_bg.jpg");
+    background-size: cover;
+}
+#pricing .row{
+    justify-content: space-between;
+}
+#pricing .pricing-item{
+    width: calc((100% / 3) - 35px);
+    background-color: #e8631c;
+    color: #fff;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin-top: 80px;
+}
+#pricing .pricing-item img{
+    margin-top: 65px;
+}
+#pricing .pricing-item h4{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 40px 0 20px 0;
+    text-transform: uppercase;
+}
+#pricing .pricing-item p{
+    font-size: 18px;
+    font-weight: 400;
+}
+#pricing .pricing-item a{
+    display: inline-block;
+    background-color: #303030;
+    padding: 15px 100px;
+    color: #fff;
+    margin-top: 30px;
+}
+/* Pricing Section End */
+
+/* Amazing Section Start */
+#amazing{
+    height: 925px;
+    background-image: url("../images/amazing_bg.jpg");
+    background-size: cover;
+}
+#amazing .row{
+    height: 100%;
+}
+/* Amazing Section End */
+
+/* Best Section Start */
+#best{
+    background-image: url("../images/best_bg.jpg");
+    background-size: cover;
+    height: 923px;
+}
+#best .row{
+    height: 100%;
+}
+/* Best Section End */
+
+/* Amazing & Best Section Common Code Start */
+.image_part{
+    width: 50%;
+}
+.image_part img{
+    width: 100%;
+}
+.content_part{
+    height: 100%;
+}
+.content_part .row{
+    height: 100%;
+    align-items: center;
+}
+.content_part .amazing_content{
+    width: 80%;
+    margin: 0 auto;
+}
+.content_part{
+    width: 50%;
+    color: #fff;
+}
+.content_part h3{
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.content_part p{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 60px 0;
+}
+.content_part a{
+    display: inline-block;
+    color: #fff;
+    padding: 18px 100px;
+    background-color: #303030;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+}
+/* Amazing & Best Section Common Code End */
+
+/* Statistics Section Start */
+#statistics{
+    background: #303030;
+}
+#statistics .statistics-item{
+    width: calc(100% / 3);
+    color: #fff;
+    margin: 100px 0 70px 0;
+}
+#statistics .statistics-item h3{
+    font-size: 50px;
+    font-weight: 700;
+}
+#statistics .statistics-item p{
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+/* Statistics Section End */
+
+/* Advertise Section Start */
+#advertise{
+    height: 950px;
+    background-image: url("../images/advertise_bg.jpg");
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+#advertise::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(232, 99, 28, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+#advertise .container{
+    height: 100%;
+}
+#advertise .row{
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+#advertise .advertise_content{
+    color: #fff;
+}
+#advertise .advertise_content p{
+    font-size: 30px;
+    font-weight: 400;
+    width: 773px;
+    margin-bottom: 35px;
+}
+#advertise .advertise_content h4{
+    font-size: 30px;
+    font-weight: 700;
+}
+/* Advertise Section End */
+
+/* Subscribe Section Start */
+#subscribe{
+    background-image: url("../images/subscribe.jpg");
+    background-size: cover;
+}
+#subscribe .email_section input{
+    display: inline-block;
+    width: 550px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px 15px;
+    font-size: 18px;
+}
+#subscribe .email_section{
+    width: 64%;
+    margin: 50px auto;
+}
+#subscribe .email_section button{
+    display: inline-block;
+    padding: 16px 50px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #303030;
+    color: #fff;
+    border: none;
+    margin-left: -4px;
+}
+/* Subscribe Section End */
+
+/* Footer Section Start */
+footer{
+    background-color: #303030;
+}
+footer .row{
+    color: #fff;
+    padding: 100px 0 90px 0;
+}
+footer .row h5{
+    font-size: 25px;
+    font-weight: 400;
+}
+footer .row ul{
+    margin: 20px 0;
+}
+footer .row a{
+    display: inline-block;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 5px 0;
+}
+footer .musicology{
+    width: 50%;
+}
+footer .musicology p{
+    font-size: 16px;
+    font-weight: 400;
+    width: 380px;
+    margin: 20px 0;
+}
+footer .musicology img{
+    margin-right: 10px;
+}
+footer .about{
+    width: calc(50% / 3);
+}
+footer .services{
+    width: calc(50% / 3);
+}
+footer .other{
+    width: calc(50% / 3);
+}
+/* Footer Section End */
